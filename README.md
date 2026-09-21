@@ -1,56 +1,54 @@
-# Udagram Image Filtering Microservice
+# Udaclpro 3
 
-Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
+Udagram Image Filtering Microservice - a full-stack application with Ionic frontend and Node.js/Express backend microservices.
 
-The project is split into three parts:
-1. [The Simple Frontend](/udacity-c3-frontend)
-A basic Ionic client web application which consumes the RestAPI Backend. 
-2. [The RestAPI Feed Backend](/udacity-c3-restapi-feed), a Node-Express feed microservice.
-3. [The RestAPI User Backend](/udacity-c3-restapi-user), a Node-Express user microservice.
+## Features
 
-## Getting Setup
+- Ionic frontend for photo upload and display
+- Node.js/Express backend for image processing
+- Microservices architecture
+- Docker containerization
+- Postman API collection
 
-> _tip_: this frontend is designed to work with the RestAPI backends). It is recommended you stand up the backend first, test using Postman, and then the frontend should integrate.
+## Badges
 
-## GITHUB REPO-https://github.com/LOKESH10796/udaclpro-3
-## DOCKER HUB-https://hub.docker.com/u/lokesh10796
+![GitHub Repo Stars](https://img.shields.io/github/stars/LOKESH10796/udaclpro-3?style=for-the-badge)
+![GitHub Forks](https://img.shields.io/github/forks/LOKESH10796/udaclpro-3?style=for-the-badge)
+![GitHub Issues](https://img.shields.io/github/issues/LOKESH10796/udaclpro-3?style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/LOKESH10796/udaclpro-3?style=for-the-badge)
 
-### Installing Node and NPM
-This project depends on Nodejs and Node Package Manager (NPM). Before continuing, you must download and install Node (NPM is included) from [https://nodejs.com/en/download](https://nodejs.org/en/download/).
+## Installation
 
-### Installing Ionic Cli
-The Ionic Command Line Interface is required to serve and build the frontend. Instructions for installing the CLI can be found in the [Ionic Framework Docs](https://ionicframework.com/docs/installation/cli).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/LOKESH10796/udaclpro-3.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd udaclpro-3
+   ```
+3. Install dependencies (if applicable):
+   ```bash
+   # For Node.js projects
+   npm install
+   # For Python projects
+   pip install -r requirements.txt
+   ```
 
-### Installing project dependencies
+## Usage
 
-This project uses NPM to manage software dependencies. NPM Relies on the package.json file located in the root of this repository. After cloning, open your terminal and run:
-```bash
-npm install
-```
->_tip_: **npm i** is shorthand for **npm install**
+Add usage instructions here.
 
-### Setup Backend Node Environment
-You'll need to create a new node server. Open a new terminal within the project directory and run:
-1. Initialize a new project: `npm init`
-2. Install express: `npm i express --save`
-3. Install typescript dependencies: `npm i ts-node-dev tslint typescript  @types/bluebird @types/express @types/node --save-dev`
-4. Look at the `package.json` file from the RestAPI repo and copy the `scripts` block into the auto-generated `package.json` in this project. This will allow you to use shorthand commands like `npm run dev`
+## Contributing
 
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
-### Configure The Backend Endpoint
-Ionic uses enviornment files located in `./src/enviornments/enviornment.*.ts` to load configuration variables at runtime. By default `environment.ts` is used for development and `enviornment.prod.ts` is used for produciton. The `apiHost` variable should be set to your server url either locally or in the cloud.
+## License
 
-***
-### Running the Development Server
-Ionic CLI provides an easy to use development server to run and autoreload the frontend. This allows you to make quick changes and see them in real time in your browser. To run the development server, open terminal and run:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```bash
-ionic serve
-```
+## Contact
 
-### Building the Static Frontend Files
-Ionic CLI can build the frontend into static HTML/CSS/JavaScript files. These files can be uploaded to a host to be consumed by users on the web. Build artifacts are located in `./www`. To build from source, open terminal and run:
-```bash
-ionic build
-```
-***# UDACITY-PRO3
+Lokesh Gounder - [@lokeshgounder](https://twitter.com/lokeshgounder) - lokesh@example.com
+
+Project Link: [https://github.com/LOKESH10796/udaclpro-3](https://github.com/LOKESH10796/udaclpro-3)
